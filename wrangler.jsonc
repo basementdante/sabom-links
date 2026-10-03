@@ -1,0 +1,14 @@
+{
+  // Cloudflare Pages 설정. 링크 페이지 클릭·검색 집계(functions/api/*)가 D1을 쓴다.
+  "name": "sabom-picks",
+  "pages_build_output_dir": ".",
+  "compatibility_date": "2026-10-01",
+  "d1_databases": [
+    {
+      "binding": "STATS",
+      "database_name": "sabom-picks-stats",
+      "database_id": "f2e8d4d9-0cd0-4ba5-ac78-320edac6a6a1",
+      "migrations_dir": "migrations"
+    }
+  ]
+}
